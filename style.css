@@ -1,0 +1,45 @@
+.cakes img{
+    height: 350px;
+    object-fit: cover;
+}
+.cake-caption{
+    position: absolute;
+    background-color: #fff;
+    bottom: 10%;
+    width: 80%;
+    left: 10%;
+    padding: 5px;
+}
+
+.cake-item{
+    position: relative;
+}
+
+#lightBox-container{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    background-color: rgba(0,0,0,.7);
+}
+
+#lightBox-item{
+    height: 70vh;
+    width:50%;
+    background-image: url(../images/pic5.jpg);
+    background-size: cover;
+}
+
+#closeIcon{
+    position: absolute;
+    top:15px;
+    right:15px
+}
+
+#cursor-image{
+position: absolute;
+width: 50px;
+z-index: 999;
+}
+
